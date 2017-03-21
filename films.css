@@ -1,11 +1,66 @@
 body{
     font-family:"PMingLiu";
+  background-color:white;
 }
 .header{
-    position:absolute;
+    display:absolute;
     float:left;
 }
-.article{
-    width:50%;
-    float:left;
+#榮耀經典-向導演學習{
+  display:block;
+  width:50%;
+  margin-right:20px;
+  float:left;
+}
+#影展總覽{
+  float:right;
+}
+#戀戀風塵{
+  display:block;
+  float:left;
+  margin: auto; 
+  padding:10px;
+  background-color:#E5E1DE;
+}
+#恐怖份子{
+  display:block;
+  float:left;
+  margin: auto; 
+  padding:10px;
+  background-color:#E5E1DE;
+}
+#喜宴{
+  display:block;
+  float:left;
+  margin: auto; 
+  padding:10px;
+  background-color:#E5E1DE;
+}
+#愛情萬歲{
+  display:block;
+  float:left;
+  margin: auto; 
+  padding:10px;
+  background-color:#E5E1DE;
+}
+#我們這樣拍電影{
+  display:block;
+  float:left;
+  margin: auto; 
+  padding:10px;
+  background-color:#E5E1DE;
+}
+#注意事項{
+  display:block;
+  width:50%;
+  clear:left;
+  float:left;
+  
+}
+#注意事項2{
+  display:block;
+  top:300px;
+  width:50%
+  
+  
 }

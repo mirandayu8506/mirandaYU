@@ -2,13 +2,15 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://mirandayu8506.github.io/wp_assign2/reg.css/">
+<link rel="stylesheet" type="text/css" href="css/style.css">
   <title>報名</title>
 </head>
 <body>
   <h2>報名表單</h2>
-  <form>
+  <form action=  "https://docs.google.com/a/mail2.nccu.tw/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/viewform" method="get">
     
-    <ul>
+  
 	
       <label for="name"></label>
       <input id="name" type="text" name="entry.1339495092" required="required" size="35" maxlength="10" placeholder="Name"/>
@@ -32,7 +34,8 @@
       <input id= "cellphone" type="cellphone" name="entry.795504394" required="required" size="50" maxlength="10" placeholder="手機">
 	            <br>
       <label for="birth">
-                  <input id="birth" type="text" name="entry.324774019"  maxlength="4" size="10" placeholder="年">
+                  <input id="birth" type="text" name="entry.324774019"  maxlength="4"  min="1900" max="2016" placeholder="年">
+        
    <select id="birthmonth" name="entry.324774019">
                      <option label="1"  value="1"></option>
                      <option label="2"  value="2"></option>
@@ -87,9 +90,9 @@
 				<br>
       <label for="submit"></label>
 				<input id="submit" type="submit" value="註冊">
-    </ul>
+    
   
-			</form>
+        </form>		
 
 
 </body>

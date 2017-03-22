@@ -12,14 +12,11 @@ background: linear-gradient(to bottom, #fcfff5 0%,#f3fbdd 52%,#e2f2a8 100%); /* 
 
 h2{
   display:inline-block;
-  margin-left:50%;
+  margin-left:40%;
   
 }
 
-form{
-  width:100%;
-  
-}
+
 
 #name{
      height:39px;
@@ -89,7 +86,7 @@ height:39px;
     height:39px;
     width: 200px;
     margin-left: 40% ;
-    margin-top:10px;
+    margin-top:5px;
     border-radius:5px;
     border:0.5px solid grey;
     background-color:#2AB2C5;
@@ -107,9 +104,11 @@ input[type=cellphone]:focus{
 }
 input[type=email]:focus{
 	background-color: #39b387;
+    opacity:0.8;
 }
 textarea:focus{
 	background-color: #39b387;
+   opacity:0.8;
 } 
 input[type=text]:valid{
   background-color: #39b387;
@@ -120,17 +119,13 @@ input[type=email]:valid{
 input[type=cellphone]:valid{
   background-color: #39b387;
 }
-input[class=商學院]:valid{
-  background-color: #39b387;
-}
+
 input[type=submit]{
-	pointer-events: none;
+	pointer-events: auto;
 	opacity: 0.8;
 }
-input[type=email]:valid~input[type=submit]{
-	pointer-events: auto;
-	opacity: 0.3;
-}
+
+
 
 
 

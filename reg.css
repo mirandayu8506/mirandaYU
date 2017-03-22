@@ -1,0 +1,137 @@
+body{
+
+background: -webkit-linear-gradient(top, #fcfff5 0%,#f3fbdd 52%,#e2f2a8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcfff5 0%,#f3fbdd 52%,#e2f2a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+
+  max-width:800px;
+  min-width:600px;
+  margin:auto;
+}
+
+h2{
+  display:inline-block;
+  margin-left:50%;
+  
+}
+
+form{
+  width:100%;
+  
+}
+
+#name{
+     height:39px;
+      width: 200px;
+     margin-left: 40% ;
+    margin-right: 1em;
+    border:0.5px solid grey;
+    border-radius:5px;
+
+}
+
+#學院{
+  height:39px;
+    width: 205px;
+    margin-left: 40% ;
+    margin-top:10px;
+    border:0.5px solid grey;
+    background-color: white;
+}
+#e-mail{
+  height:39px;
+      width: 200px;
+     margin-left: 40% ;
+    margin-top:10px;
+    border-radius:5px;
+    border:0.5px solid grey;
+}
+
+#cellphone{
+   height:39px;
+      width: 200px;
+     margin-left: 40% ;
+    margin-top:10px;
+    border-radius:5px;
+    border:0.5px solid grey;
+}
+#birth{
+height:39px;
+      width: 200px;
+     margin-left: 40% ;
+    margin-top:10px;
+    border-radius:5px;
+    border:0.5px solid grey;
+}
+#birthmonth{
+  height:39px;
+    width: 100px;
+    margin-left: 40% ;
+    margin-top:10px;
+    border:0.5px solid grey;
+    background-color: white;
+}
+#birthday{
+  display:inline-block;
+  height:39px;
+    width: 100px;
+    margin-top:10px;
+    border:0.5px solid grey;
+    background-color: white;
+}
+
+#seatnumber{
+  visibility:hidden;
+}
+
+#submit{
+    height:39px;
+    width: 200px;
+    margin-left: 40% ;
+    margin-top:10px;
+    border-radius:5px;
+    border:0.5px solid grey;
+    background-color:#2AB2C5;
+}
+#submit:hover{
+  opacity:0.5;
+}
+input[type=text]:focus{
+	background-color: #39b387;
+    opacity:0.8;
+}
+input[type=cellphone]:focus{
+	background-color: #39b387;
+    opacity:0.8;
+}
+input[type=email]:focus{
+	background-color: #39b387;
+}
+textarea:focus{
+	background-color: #39b387;
+} 
+input[type=text]:valid{
+  background-color: #39b387;
+}
+input[type=email]:valid{
+  background-color: #39b387;
+}
+input[type=cellphone]:valid{
+  background-color: #39b387;
+}
+input[class=商學院]:valid{
+  background-color: #39b387;
+}
+input[type=submit]{
+	pointer-events: none;
+	opacity: 0.8;
+}
+input[type=email]:valid~input[type=submit]{
+	pointer-events: auto;
+	opacity: 0.3;
+}
+
+
+
+

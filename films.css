@@ -27,13 +27,19 @@ h3{
     
 }
 .section{
-flex-wrap:wrap;
+/* flex-wrap:wrap; */
 margin-left:50%;
+}
+span{
+ font-size:30px; 
+ font-style:none;
+ color:blue;
 }
 #榮耀經典-向導演學習{
  display:block;
   width:50%;
   margin-right:20px;
+  margin-bottom:0px;
   float:left;
   text-indent:0.5em;
 }
@@ -49,6 +55,7 @@ opacity:0.4;
 }
 #戀戀風塵{
   display:inline-block;
+  float:left;
   width:25%;
   
   margin-bottom:10px;
@@ -57,6 +64,7 @@ opacity:0.4;
 }
 #恐怖份子{
   display:inline-block;
+  
   width:25%;
   padding:10px;
   margin-bottom:10px;
@@ -64,6 +72,7 @@ opacity:0.4;
 }
 #喜宴{
   display:inline-block;
+ 
   width:25%;
 /*   margin-left:500px; */
   margin-bottom:10px;
@@ -72,6 +81,7 @@ opacity:0.4;
 }
 #愛情萬歲{
   display:inline-block;
+  
   width:25%;
   margin-bottom:10px;
   padding:10px;

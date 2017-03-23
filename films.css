@@ -125,7 +125,7 @@ opacity:0.8;
 opacity:0.8;
 }
 #我們這樣拍電影{
-  display:flex;
+  display:inline-block;
   width:23%;
 /*   margin-left:53%; */
   margin-bottom:10px;

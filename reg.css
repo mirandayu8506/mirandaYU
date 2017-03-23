@@ -124,7 +124,27 @@ input[type=submit]{
 	pointer-events: auto;
 	opacity: 0.8;
 }
-
+input[type=text]:invalid {
+  outline: 2px solid red;
+  
+}
+input [type=text]:focus:invalid {
+  color: red;
+}
+input[type=e-mail]:invalid {
+  outline: 2px solid red;
+  
+}
+input [type=e-mail]:focus:invalid {
+  color: red;
+}
+input[type=cellphone]:invalid {
+  outline: 2px solid red;
+  
+}
+input [type=cellphone]:focus:invalid {
+  color: red;
+}
 
 
 

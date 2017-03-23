@@ -164,7 +164,7 @@ float:inline-start;
 }
 footer{
  position:relative;
-/*  display:inline-block;  */
+  display:block; 
   box-sizing: border-box;
    bottom:0;
   
